@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 let displayValue = '0';
 let firstOperand = null;
 let secondOperand = null;
@@ -182,7 +182,7 @@ function operate(x, y, op) {
 
 function roundAccurately(num, places) {
     return parseFloat(Math.round(num + 'e' + places) + 'e-' + places);
-=======
+
 let displayValue = '0';
 let firstOperand = null;
 let secondOperand = null;
@@ -366,5 +366,5 @@ function operate(x, y, op) {
 
 function roundAccurately(num, places) {
     return parseFloat(Math.round(num + 'e' + places) + 'e-' + places);
->>>>>>> a2dbbff12ace6954c78f1c980f7b47ee88a752c5
+
 }
