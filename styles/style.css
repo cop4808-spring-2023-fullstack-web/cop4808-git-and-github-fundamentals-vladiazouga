@@ -165,9 +165,44 @@ button {
     grid-column: span 2;
 }
 
-.advmath{
+.ln{
     background-color: #5758BB;
     font-weight: bold;
+}
+
+/* Changes the color of the onclick button when user */
+.ln:active{
+    background-color: #797be0;
+}
+
+.squared{
+    background-color: #5758BB;
+    font-weight: bold;
+}
+
+/* Changes the color of the onclick button when user */
+.squared:active{
+    background-color: #797be0;
+}
+
+.sqrt{
+    background-color: #5758BB;
+    font-weight: bold;
+}
+
+/* Changes the color of the onclick button when user */
+.sqrt:active{
+    background-color: #797be0;
+}
+
+.pi{
+    background-color: #5758BB;
+    font-weight: bold;
+}
+
+/* Changes the color of the onclick button when user */
+.pi:active{
+    background-color: #797be0;
 }
 
 .operator {
