@@ -42,9 +42,6 @@ function clickButton() {
                 updateDisplay();
             } else if(buttons[i].classList.contains('squared')) {
                 inputSquared(displayValue);
-                updateDisplay();
-            else if(buttons[i].classList.contains('pi')) {
-                inputSquared(displayValue);
                 updateDisplay();   
             } else if(buttons[i].classList.contains('decimal')) {
                 inputDecimal(buttons[i].value);
@@ -52,8 +49,8 @@ function clickButton() {
             } else if(buttons[i].classList.contains('percent')) {
                 inputPercent(displayValue);
                 updateDisplay();
-            } else if(buttons[i].classList.contains('sign')) {
-                inputSign(displayValue);
+            } else if(buttons[i].classList.contains('cubedroot')) {
+                inputCubeRoot(displayValue);
                 updateDisplay();
             } else if(buttons[i].classList.contains('clear'))
                 clearDisplay();
@@ -64,28 +61,28 @@ function clickButton() {
 
 clickButton();
 
-//Create a function to find the natural log of the values passed
+//Create a function to find the natural log of the values passed in the display
 //Updates the the display value when function is passed
 function inputLn(x){
     displayValue = Math.log(x).toFixed(7)
 }
 
-//Create a function to find the square root of the values passed
+//Create a function to find the square root of the values passed in the display
 //Updates the the display value when function is passed
 function inputSqrt(x){
     displayValue = Math.sqrt(x).toFixed(7)
 }
 
-//Create a function to square the values passed
+//Create a function to square the values passed in the display
 //Updates the the display value when function is passed
 function inputSquared(x){
     displayValue = Math.pow(x, 2).toFixed(7)
 }
 
-//Create a function to finds pi of values passed
+//Create a function to find the cubed root of the values passed in the display
 //Updates the the display value when function is passed
-function inputPi(x){
-    displayValue = Math.PI(x).toFixed(7)
+function inputCubeRoot(x){
+    displayValue = Math.pow(x, 1/3).toFixed(7);
 }
 
 function inputOperand(operand) {

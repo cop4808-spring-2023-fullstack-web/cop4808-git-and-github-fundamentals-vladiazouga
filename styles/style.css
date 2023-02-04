@@ -195,13 +195,13 @@ button {
     background-color: #797be0;
 }
 
-.pi{
+.cubedroot{
     background-color: #5758BB;
     font-weight: bold;
 }
 
 /* Changes the color of the onclick button when user */
-.pi:active{
+.cubedroot:active{
     background-color: #797be0;
 }
 
