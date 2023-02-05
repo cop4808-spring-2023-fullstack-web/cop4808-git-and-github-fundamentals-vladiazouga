@@ -4,6 +4,25 @@ html {
     font-family: monospace;
 }
 
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 #calc {
     display: flex;
     min-height: 95vh;
@@ -12,7 +31,7 @@ html {
     align-items: center;
     height: 100vh;
     overflow: hidden;
-    background-color: azure;
+    
 }
 
 #container {
@@ -67,11 +86,11 @@ button {
 }
 
 .equals:active {
-    background-color: #ffc183;
+    background-color: #0d0d0c;
 }
 
 .operand {
-    background-color: #217C7E;
+    background-color: #0fb54e;
 }
 
 .operand:active {
@@ -87,7 +106,7 @@ button {
 }
 
 .clear {
-    background-color: dodgerblue;
+    background-color: rgb(255, 109, 30);
 }
 
 .clear:active {
@@ -123,7 +142,8 @@ html {
     align-items: center;
     height: 100vh;
     overflow: hidden;
-    background-color: azure;
+
+    
 }
 
 #container {
@@ -206,7 +226,7 @@ button {
 }
 
 .operator {
-    background-color: #FF8F1F;    
+    background-color: #ff1fa9;    
 }
 
 .operator:focus {
@@ -214,7 +234,7 @@ button {
 }
 
 .equals {
-    background-color: #FF8F1F;
+    background-color: #5758BB;
 }
 
 .equals:active {
@@ -222,7 +242,7 @@ button {
 }
 
 .operand {
-    background-color: #217C7E;
+    background-color: #31b7d5;
 }
 
 .operand:active {
@@ -230,7 +250,7 @@ button {
 }
 
 .decimal {
-    background-color: #217C7E;
+    background-color: dodgerblue;
 }
 
 .decimal:active {
