@@ -1,3 +1,9 @@
+h1{
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+
+}
 
 html {
     text-align: center;
